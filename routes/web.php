@@ -17,3 +17,8 @@ Route::get('/', function () {
     $greating = 'Hello World';
     return view('home', compact('greating'));
 });
+
+Route::get('/otherPage', function () {
+    $greating = 'Ola';
+    return view('otherPage', compact('greating'));
+})->name('page');
