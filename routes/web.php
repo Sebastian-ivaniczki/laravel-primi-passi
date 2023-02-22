@@ -19,6 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/otherPage', function () {
-    $greating = 'Ola';
-    return view('otherPage', compact('greating'));
+    $users = ['Fabio', 'Marco', 'Ale'];
+    return view('otherPage', compact('users'));
 })->name('page');

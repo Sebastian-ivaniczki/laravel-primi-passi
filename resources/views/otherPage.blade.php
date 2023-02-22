@@ -9,7 +9,15 @@
 </head>
 
 <body>
-    <h1>{{ $greating }}</h1>
+    <ul>
+
+        @foreach ($users as $user)
+            <li>
+                {{ $user }}
+
+            </li>
+        @endforeach
+    </ul>
 </body>
 
 </html>
