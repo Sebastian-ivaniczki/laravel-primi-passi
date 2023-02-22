@@ -11,6 +11,6 @@
 <body>
 
 </body>
-<h1>hello World</h1>
+<h1>{{ $greating }}</h1>
 
 </html>
